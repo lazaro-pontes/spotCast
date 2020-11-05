@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Slider from '@react-native-community/slider'
 import styled from 'styled-components';
 import {LinearGradient} from 'expo-linear-gradient';
+
 import {ChevronIcon} from '../components/icons/chevron'
 import {MoreVertIcon} from '../components/icons/moreVert'
 import {PlayIcon} from '../components/icons/play'
@@ -45,6 +46,7 @@ TopBar.Title = styled.Text`
     color: white;
     text-transform: uppercase;
 `;
+
 TopBar.SubTitle = styled.Text`
     color: white;
     font-weight: bold;
@@ -149,7 +151,7 @@ export function PlayerScreen() {
 
             <PlayerArea>
                 <PlayerArea.Title>
-                    esquadafum em Amsterdã
+                    esquadrilha em amsterdã
                 </PlayerArea.Title>
 
                 <PlayerArea.Author>
